@@ -2,8 +2,7 @@ var clearBut = $("#clearAll");
 
 var hours = [
       "9 AM", "10 AM", "11AM", "12 PM", "1 PM", "2 PM",
-    "3 PM", "4 PM", "5 PM", "6 PM", "7 PM", "8 PM", 
-    "9 PM", "10 PM", "11PM"
+    "3 PM", "4 PM", "5 PM"
   ]; 
 
   var past = [];
@@ -11,7 +10,7 @@ var hours = [
   var currentHour = moment().format("h A").toString()
   var present = [currentHour]
 let i =0;
-
+$('#currentDay').text(moment().format('DD/MM/YYYY, h:mm a').toString())
 
 // Make 3 arrays for past, present and future hours
 if (hours.includes(currentHour) == false) {
