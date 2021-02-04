@@ -1,4 +1,3 @@
-
 <h1>Description</h1>
 This time planning application allows a user to save events for time blocks (9am to 5pm) in a day. Moment.js was integrated in the script to track current time.
 
