@@ -8,6 +8,6 @@ https://klin4994.github.io/Daily-Planner/
 <h1>Screenshot</h1>
 <p align="center"> 
 <br>
-<img src="assets\Screen shot of the application" alt="Application Screenshot">
+<img src="assets\Screen shot of the application.PNG" alt="Application Screenshot">
 </p>
 
