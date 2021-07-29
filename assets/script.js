@@ -66,7 +66,7 @@ function makeBlocks (time) {
    
     row.append(input)
     // Save button
-    var save = $("<div class = 'col-2 saveBtn'>y</div")
+    var save = $("<div class = 'col-2 saveBtn'>ds</div>")
     save.text("Save");
     row.append(save)
   })

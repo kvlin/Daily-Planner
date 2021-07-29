@@ -78,7 +78,7 @@ textarea{
   border-width: 1px;
 }
 .saveBtn {
-  
+  cursor: pointer;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: rgb(0, 136, 199);
@@ -92,4 +92,5 @@ textarea{
   background-color: rgb(0, 55, 126);
   border-color: black;
   border-width: 2px;
+  
 }
