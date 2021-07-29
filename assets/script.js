@@ -10,7 +10,12 @@ var hours = [
   var currentHour = moment().format("h A").toString()
   var present = [currentHour]
 let i =0;
-$('#currentDay').text(moment().format('DD/MM/YYYY, h:mm a').toString())
+// running clock on the page
+function liveClock() {
+  $('#currentDay').text('Live Time: '+ moment().format('DD/MM/YYYY, h:mm a').toString())
+  
+}
+setInterval (liveClock,1000)
 
 // Make 3 arrays for past, present and future hours
 if (hours.includes(currentHour) == false) {
