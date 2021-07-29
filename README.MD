@@ -3,7 +3,7 @@ This time planning application allows a user to save events for time blocks (9am
 
 
 <h1>Link</h1>
-https://klin4994.github.io/Daily-Planner/
+https://kvlin.github.io/Daily-Planner/
 
 <h1>Screenshot</h1>
 <p align="center"> 
