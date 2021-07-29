@@ -30,8 +30,6 @@ if (hours.includes(currentHour) == false) {
   future = future.reverse()
   
 }
-console.log(future)
-
 
 
 // Initialise localStorage
